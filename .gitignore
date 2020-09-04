@@ -341,3 +341,5 @@ healthchecksdb
 
 # Ignore any dll in the Libs folder
 Libs/*.dll
+Libs/*.mdb
+Libs/*.xml

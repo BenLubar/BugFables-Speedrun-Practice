@@ -18,7 +18,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>D:\Program Files\Steam\steamapps\common\Bug Fables\BepInEx\plugins\Speedrun-Practice\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -61,9 +61,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
     <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -370,7 +368,10 @@
     <Compile Include="Extensions\BattleControl_Ext.cs" />
     <Compile Include="Extensions\MainManager_Ext.cs" />
     <Compile Include="Extensions\PlayerControl_Ext.cs" />
+    <Compile Include="Extensions\SpyCardsOnlineRNG.cs" />
     <Compile Include="Extensions\StartMenu_Ext.cs" />
+    <Compile Include="Patches\FlappyBee.cs" />
+    <Compile Include="Patches\MazeGame.cs" />
     <Compile Include="SpeedrunPracticePlugin.cs" />
     <Compile Include="Patches\BattleControl.cs" />
     <Compile Include="Patches\MainManager.cs" />
